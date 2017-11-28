@@ -1,0 +1,12 @@
+.article {
+  display: flex;
+
+  & > div {
+    flex: 1 0 50%;
+    overflow: hidden;
+
+    &.image-container {
+      height: 100vh;
+    }
+  }
+}
