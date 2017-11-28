@@ -25,7 +25,7 @@ div#navbar {
         height: 2px;
         background: white;
         margin: 2px 0;
-        transition: .3s;
+        transition: .3s ease;
         transition-property: opacity, transform;
       }
     }
@@ -90,10 +90,16 @@ div#menu-content {
 
   &.active {
     width: calc(100% - 100px);
+
+    & > a {
+      opacity: 1;
+    }
   }
 
   & > a {
     text-decoration: none;
     color: white;
+    opacity: 0;
+    transition: .3s opacity ease;
   }
 }
