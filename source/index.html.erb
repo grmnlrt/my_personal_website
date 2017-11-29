@@ -6,6 +6,10 @@ title: Middleman template with webpack
     <h1>
       <span id="banner-typed-text"></span>
     </h1>
+    <input type="button" id="primaryButton" onclick="ExistingLogic()" />
+    <input type="button"
+           id="secondaryButton"
+           onclick="document.getElementById('primaryButton').click()" />
   </div>
   <div class="image-container">
     <img src="https://picsum.photos/800/1000/?image=833" alt="lorem">
