@@ -1,0 +1,27 @@
+wagon:
+  degree_name: Bootcamp
+  speciality: Développeur FullStack
+  description: Alumni du Batch \#70 du Wagon. Bootcamp intensif de 9 semaines pour apprendre HTML, CSS, Bootstrap, JavaScript, jQuery, SQL, git, GitHub, Heroku et Ruby on Rails.
+  school: Le Wagon
+  logo: le_wagon.png
+  city: Paris
+  country: France
+  year: 2017
+master:
+  degree_name: Master
+  speciality: Communication
+  description: Diplomé du Master PRANET (Pratiques professionnelles de l’internet). Réalisation d’un mémoire de fin d’étude sur les principaux business model sur internet.
+  school: Université de Rennes 2
+  logo: rennes_2.png
+  city: Rennes
+  country: France
+  year: 2013
+license:
+  degree_name: License
+  speciality: Sociologie
+  description: Diplomé d’une licence générale de sociologie. Participation à une enquête sur les dynamiques sociales commandée par la DDTM du Morbihan lors de ma dernière année.
+  school: Université de Rennes 2
+  logo: rennes_2.png
+  city: Rennes
+  country: France
+  year: 2011
