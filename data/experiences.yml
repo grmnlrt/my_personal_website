@@ -1,3 +1,10 @@
+freelance:
+  job: Développeur web fullstack
+  description: Suite au bootcamp du Wagon, je travail comme développeur freelance Ruby on Rails.
+  start_date: 10 juin 2017
+  end_date: aujourd'hui
+  city: Paris
+  country: France
 gsm55:
   company_name: GSM55
   logo: gsm55.jpg
