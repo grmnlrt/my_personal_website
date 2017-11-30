@@ -1,0 +1,31 @@
+#socialbar {
+  position: absolute;
+  width: 50px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: $yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+  transition: .3s width ease;
+
+  & > a {
+    color: $white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: 500;
+
+    &:hover {
+      color: $black;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #socialbar {
+    width: 0;
+  }
+}

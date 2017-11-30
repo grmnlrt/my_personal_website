@@ -1,4 +1,4 @@
-div#navbar {
+#navbar {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -89,7 +89,7 @@ div#menu-content {
   z-index: 10;
 
   &.active {
-    width: calc(100% - 100px);
+    width: calc(100% - 150px);
 
     & > a {
       opacity: 1;
@@ -101,5 +101,25 @@ div#menu-content {
     color: $white;
     opacity: 0;
     transition: .3s opacity ease;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  div#navbar {
+    width: inherit;
+    right: 0;
+    bottom: unset;
+    flex-direction: row-reverse;
+
+    & > .name {
+      transform: none;
+      height: unset;
+      margin: 10px 0 10px 20px;
+
+      & > p {
+        line-height: 1.5;
+        margin: 0 !important;
+      }
+    }
   }
 }

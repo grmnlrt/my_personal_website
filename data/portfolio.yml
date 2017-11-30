@@ -48,3 +48,13 @@ publidata:
   end_date: juillet 2017
   city: Paris
   country: France
+seeedr:
+  company_name: Seeedr.com
+  image: seeedr.png
+  website: http://www.seeedr.com/
+  role: Développeur fullstack
+  objectifs: [Projet de fin de batch au Wagon]
+  start_date: juin 2017
+  end_date: juin 2017
+  city: Paris
+  country: France
