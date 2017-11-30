@@ -35,8 +35,9 @@ activate :deploy do |deploy|
 end
 
 # routes
-  page "/resume.html"
+  page "/curriculum-vitae.html"
   page "/portfolio.html"
+  page "/prestations.html"
 
 # Helpers
 # Methods defined in the helpers block are available in templates
