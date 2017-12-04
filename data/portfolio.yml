@@ -1,0 +1,60 @@
+le_wagon_101:
+  company_name: Le Wagon
+  image: wagon.png
+  website: https://www.lewagon.com/fr
+  role: Teacher & Teacher assistant
+  objectifs: [Professeur sur les cours de Geocoding et d'Ajax, Soutien des élèves dans la réalisation des exercices du Bootcamp, Aide à la réalisation des projets web de fin de Bootcamp]
+  start_date: octobre 2017
+  end_date: décembre 2017
+  city: Paris
+  country: France
+weeklysounds:
+  company_name: Weeklysounds.com
+  image: weeklysounds.png
+  website: http://www.weeklysounds.com/
+  role: Développeur fullstack
+  objectifs: [Création du site avec Middleman, Gestion du contenus avec Prismic.io, Déploiment automatique du site avec CircleCI]
+  start_date: octobre 2017
+  end_date: octobre 2017
+  city: Paris
+  country: France
+therealestatejungle:
+  company_name: The Real Estate Jungle
+  image: therealestatejungle.png
+  website: https://www.therealestatejungle.fr/
+  role: Développeur fullstack
+  objectifs: [Ajout des filtres de recherches, Création de la liste de contact du chat, Implémentation des mails transactionnels, Correction de bugs sur le front]
+  start_date: septembre 2017
+  end_date: septembre 2017
+  city: Paris
+  country: France
+le_wagon_83:
+  company_name: Le Wagon
+  image: wagon.png
+  website: https://www.lewagon.com/fr
+  role: Teacher assistant
+  objectifs: [Soutien des élèves dans la réalisation des exercices du Bootcamp, Aide à la réalisation des projets web de fin de Bootcamp]
+  start_date: juillet 2017
+  end_date: août 2017
+  city: Paris
+  country: France
+publidata:
+  company_name: Publidata.io
+  image: publidata.png
+  website: http://www.publidata.io/
+  role: Développeur fullstack
+  objectifs: [Configuration et ajout du formulaire de sign-up, Mise en place d'une interface pour gérer les utilisateurs, Implémentation des mails transactionnels, Implémentation d'une option pour permettre aux managers d'inviter des utilisateurs]
+  start_date: juillet 2017
+  end_date: juillet 2017
+  city: Paris
+  country: France
+seeedr:
+  company_name: Seeedr.com
+  image: seeedr.png
+  website: http://www.seeedr.com/
+  role: Développeur fullstack
+  objectifs: [Projet de fin de batch au Wagon]
+  start_date: juin 2017
+  end_date: juin 2017
+  city: Paris
+  country: France

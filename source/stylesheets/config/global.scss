@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  background: $grey;
+  background: $beige;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -22,9 +22,19 @@ a {
 
 .container {
   position: absolute;
-  right: 0;
+  right: 50px;
   left: 100px;
   top: 0;
   bottom: 0;
   overflow: scroll;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    right: 0;
+    left: 0;
+    top: 68px;
+    bottom: 0;
+    overflow: scroll;
+  }
 }
