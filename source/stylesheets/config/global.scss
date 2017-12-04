@@ -28,3 +28,13 @@ a {
   bottom: 0;
   overflow: scroll;
 }
+
+@media screen and (max-width: 800px) {
+  .container {
+    right: 0;
+    left: 0;
+    top: 68px;
+    bottom: 0;
+    overflow: scroll;
+  }
+}

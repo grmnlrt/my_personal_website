@@ -111,6 +111,11 @@ div#menu-content {
     bottom: unset;
     flex-direction: row-reverse;
 
+    & > .menu {
+      margin-top: 0px;
+      margin-right: 20px;
+    }
+
     & > .name {
       transform: none;
       height: unset;
@@ -120,6 +125,15 @@ div#menu-content {
         line-height: 1.5;
         margin: 0 !important;
       }
+    }
+  }
+
+  div#menu-content {
+    top: 68px;
+    left: 0;
+
+    &.active {
+      width: 100%;
     }
   }
 }
