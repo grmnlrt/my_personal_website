@@ -1,28 +1,31 @@
 div#identity-card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
-  & > .avatar {
-    width: 150px;
-    height: 150px;
-    overflow: hidden;
+  & > .header {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 100px;
-    margin: 30px;
 
-    & > img {
+    & > .avatar {
       width: 150px;
-    }
-  }
+      height: 150px;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 100px;
+      margin: 30px;
 
-  & > .description {
-    & > .subtitle {
-      font-size: 18px;
-      font-family: "Rubik", "Helvetica", "sans-serif";
-      font-weight: 100;
+      & > img {
+        width: 150px;
+      }
+    }
+
+    & > .identity {
+      & > .subtitle {
+        font-size: 18px;
+        font-family: "Rubik", "Helvetica", "sans-serif";
+        font-weight: 100;
+      }
     }
   }
 }
