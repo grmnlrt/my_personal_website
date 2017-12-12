@@ -2,6 +2,10 @@
   font-family: $body-font;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   margin: 0;
   background: $beige;
@@ -27,6 +31,7 @@ a {
   top: 0;
   bottom: 0;
   overflow: scroll;
+  padding: 50px;
 }
 
 @media screen and (max-width: 800px) {

@@ -1,0 +1,9 @@
+---
+title: Germain Loret - Portfolio
+---
+<div id="portfolio-cards">
+  <% data.portfolio.each do |mission| %>
+    <%= partial 'shared/portfolio_card', locals: { mission: mission } %>
+  <% end %>
+</div>
+

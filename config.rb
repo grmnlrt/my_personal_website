@@ -39,6 +39,7 @@ end
   page "/curriculum-vitae.html"
   page "/portfolio.html"
   page "/prestations.html"
+  page "/contact.html"
 
 # Helpers
 # Methods defined in the helpers block are available in templates

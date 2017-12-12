@@ -1,7 +1,7 @@
 <div id="identity-card">
   <div class="header">
     <div class="avatar">
-      <img src="http://uwm.edu/french-italian-comparative-literature/wp-content/uploads/sites/206/2015/06/grey-man.png" alt="">
+      <img src="images/avatar.png" alt="">
     </div>
     <div class="identity">
       <h1 class="title">John Doe</h1>
@@ -10,6 +10,19 @@
   </div>
   <hr>
   <div class="description">
-    <p>blabal</p>
+    <p><%= data.cv.about.paragraph_1 %></p>
+    <p><%= data.cv.about.paragraph_2 %></p>
+    <p><%= data.cv.about.paragraph_3 %></p>
+  </div>
+  <hr>
+  <div class="other">
+    <div class="address">
+      <i class="fa fa-github" aria-hidden="true"></i>
+      <p><%= data.cv.address %></p>
+    </div>
+    <div class="phone">
+      <i class="fa fa-github" aria-hidden="true"></i>
+      <p><%= data.cv.phone %></p>
+    </div>
   </div>
 </div>
